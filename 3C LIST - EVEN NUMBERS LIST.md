@@ -1,31 +1,46 @@
 # Exp.No:3c
-## LIST - EVEN NUMBERS LIST
-
----
+## LIST -Write a python program to reverse the members of a given list
 
 ### AIM  
-To write a Python function that accepts a number **N** and creates a list containing all even numbers up to **N**.
-
----
+To Write a python program to reverse the members of a given list
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept an integer `a` from the user.  
-3. Create an empty list `l`.  
-4. Use a `for` loop to iterate through numbers from `1` to `a - 1`:  
-   - For each number `i`, check if it is even using `i % 2 == 0`.  
-   - If it is even, append `i` to the list `l`.  
-5. Print the final list `l` containing all the even numbers.  
-6. Terminate the program.
+Start
 
----
+Input the number of elements n
+
+Create an empty list l
+
+Repeat for i = 0 to n - 1:
+
+Prompt user to input a number ele
+
+Append ele to the list l
+
+Reverse the list l
+
+Print the reversed list
+
+End
 
 ### PROGRAM
+n=int(input())
 
-```
-```
+l=[]
+
+for i in range(n):
+
+    ele=int(input())
+    l.append(ele)
+l.reverse()
+
+print(l)
+
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/9bf06b28-c806-4cf3-afd7-d0ebb1527a41)
+
 
 ### RESULT
+Thus, python program to reverse the members of a given list was implemented successfully. 
